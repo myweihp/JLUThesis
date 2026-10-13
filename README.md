@@ -37,7 +37,7 @@
 
 - 单面印刷需设置 documentclass 为 oneside (如`\documentclass[twoside,a4paper,12pt]{book}`)，双面印刷需设置 documentclass 为 twoside (如`\documentclass[oneside,a4paper,12pt]{book}`)。
 - 可选择安装 TeX Live 并使用 XeLaTeX 进行编译，注意设置编译链，如需使用VsCode可以搭配[这篇文章](https://zhuanlan.zhihu.com/p/38178015)食用。<br/>
-校内可在[吉大镜像站](http://mirrors.jlu.edu.cn/CTAN/systems/texlive/tlnet/install-tl.zip)下载 TeX Live。
+校内可在[吉大镜像站](http://mirrors.jlu.edu.cn/CTAN/systems/texlive/tlnet/)下载 TeX Live。
 - 与原作者的方案不同，我选择在项目下放置字体文件，并指定所需要的字体路径，以实现不同系统下的迁移，当然也可以一同上传至Overleaf。因字体版权原因，不提供overleaf模板链接，请自行下载本项目上传至overleaf。
 - 我选择的字体方案与学校指定的字体一致。以下所需字体收集自[github](https://github.com/Haixing-Hu/latex-chinese-fonts)，并放置在fonts路径：
 	- Simsun（中易宋体，即微软宋体）
